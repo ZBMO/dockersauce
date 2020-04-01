@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: coretto11
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre-Build phase...
+  build:
+    commands:
+      - echo Build started on 'date'
+      - mvn install
+  post_build:
+    commands:
+      - echo Build completed on 'date'
+artifacts:
+  files:
+    - target/gs-spring-boot-docker-0.1.0.jar
