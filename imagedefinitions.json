@@ -1,0 +1,6 @@
+[
+  {
+    "name": "dockersauce",
+    "imageUri": "215006458670.dkr.ecr.us-east-2.amazonaws.com/dockersauce-repo:latest"
+  }
+]
